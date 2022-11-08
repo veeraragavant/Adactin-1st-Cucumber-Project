@@ -1,0 +1,736 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "To Launch The Adactin Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13182802900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Launch the Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6814452100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Enter \"http://adactinhotelapp.com/\" url in Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://adactinhotelapp.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "Steps.user_Enter_url_in_Browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539663000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I complete action User Verify Application Land on Login Page",
+            "match": {
+              "location": "Steps.i_complete_action_User_Verify_Application_Land_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1740400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "To Verify Valid Login Details",
+        "description": "",
+        "id": "for-automation-testcase-regression-site-adactin;to-verify-valid-login-details",
+        "after": [
+          {
+            "result": {
+              "duration": 5346435400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 529491600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Enter Valid Username \"Veeraragavmsd7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Veeraragavmsd7",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.user_Enter_Valid_Username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127119000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Enter Valid Password \"veera@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "veera@123",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.user_Enter_Valid_Password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3278352500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "Steps.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204865100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Verify the Logged in Page Successfully",
+            "match": {
+              "location": "Steps.user_Verify_the_Logged_in_Page_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@TC-101"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To Launch The Adactin Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2083995000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Launch the Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7006319700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Enter \"http://adactinhotelapp.com/\" url in Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://adactinhotelapp.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "Steps.user_Enter_url_in_Browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107903100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I complete action User Verify Application Land on Login Page",
+            "match": {
+              "location": "Steps.i_complete_action_User_Verify_Application_Land_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 134100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "To Verify Invalid Login Details",
+        "description": "",
+        "id": "for-automation-testcase-regression-site-adactin;to-verify-invalid-login-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1628302600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139447700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Enter the UserName in Login Page \"Veeraragavmsd8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Veeraragavmsd8",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_UserName_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135672300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Enter the PassWord in Login Page \"veera@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "veera@123",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_PassWord_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 584200900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "Steps.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47346400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Verify the Login Error Message \"Invalid Login details or Your Password might have expired. Click here to reset your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Login details or Your Password might have expired. Click here to reset your password",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_Verify_the_Login_Error_Message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          },
+          {
+            "line": 35,
+            "name": "@TC-102"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To Launch The Adactin Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2274727000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Launch the Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7199356900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Enter \"http://adactinhotelapp.com/\" url in Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://adactinhotelapp.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "Steps.user_Enter_url_in_Browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96237000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I complete action User Verify Application Land on Login Page",
+            "match": {
+              "location": "Steps.i_complete_action_User_Verify_Application_Land_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 227600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "To Verify Invalid Login Details",
+        "description": "",
+        "id": "for-automation-testcase-regression-site-adactin;to-verify-invalid-login-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1589027700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 150688700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Enter the UserName in Login Page \"Veeraragavmsd7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Veeraragavmsd7",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_UserName_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102953400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Enter the PassWord in Login Page \"Vra@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vra@123",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_PassWord_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1652398000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "Steps.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75783800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Verify the Login Error Message \"Invalid Login details or Your Password might have expired. Click here to reset your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Login details or Your Password might have expired. Click here to reset your password",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_Verify_the_Login_Error_Message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          },
+          {
+            "line": 35,
+            "name": "@TC-102"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To Launch The Adactin Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3727847800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Launch the Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5245982500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Enter \"http://adactinhotelapp.com/\" url in Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://adactinhotelapp.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "Steps.user_Enter_url_in_Browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99997700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I complete action User Verify Application Land on Login Page",
+            "match": {
+              "location": "Steps.i_complete_action_User_Verify_Application_Land_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 150400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "To Verify Invalid Login Details",
+        "description": "",
+        "id": "for-automation-testcase-regression-site-adactin;to-verify-invalid-login-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1564004300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176681800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User Enter the UserName in Login Page \"Veeraragavmsd8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Veeraragavmsd8",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_UserName_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105107100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User Enter the PassWord in Login Page \"Vra@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vra@123",
+                  "offset": 39
+                }
+              ],
+              "location": "Steps.user_Enter_the_PassWord_in_Login_Page(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672365400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "Steps.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48242600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Verify the Login Error Message \"Invalid Login details or Your Password might have expired. Click here to reset your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Login details or Your Password might have expired. Click here to reset your password",
+                  "offset": 37
+                }
+              ],
+              "location": "Steps.user_Verify_the_Login_Error_Message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Regression"
+          },
+          {
+            "line": 35,
+            "name": "@TC-102"
+          }
+        ]
+      }
+    ],
+    "name": "For Automation Testcase Regression Site Adactin",
+    "description": "",
+    "id": "for-automation-testcase-regression-site-adactin",
+    "keyword": "Feature",
+    "uri": "Regression.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
